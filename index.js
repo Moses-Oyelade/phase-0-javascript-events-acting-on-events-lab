@@ -30,11 +30,17 @@ console.log(moveDodgerRight);
 //Wire to event listener
 dodger.style.bottom = "10px";
 
-
+//movingDogerLeft
 document.addEventListener("keydown", function (e) {
     if (e.key === "ArrowLeft") {
       moveDodgerLeft();
     }
   });
   
+//movingDogerRight
+document.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowRight") {
+      moveDodgerRight();
+    }
+  });
  
